@@ -1,9 +1,9 @@
 # Site settings
 title: test 
 email: jpgallagher@gmail.com
-description:  # this means to ignore newlines until "baseurl:"
+description: test test abc # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: "jpgallagher1.github.io" # the base hostname & protocol for your site
 
 twitter_username:
 github_username: jpgallagher1
