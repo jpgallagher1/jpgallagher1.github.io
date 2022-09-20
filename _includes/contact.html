@@ -2,27 +2,31 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">Let's Get In Touch!</h2>
-                <hr class="primary">
+                <h2 class="section-heading text-center">Let's Get In Touch!</h2>
+                <hr class="primary text-center">
                 <p>I'm always happy to help create and collaborate.  Send an email and I'll get back to you as soon as possible!</p>
             </div>
-        <div class="col-lg-2 col-lg-offset-1 text-center">
-            <a href="mailto:{{ site.email }}">
-            <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                <p>{{ site.email }}</p>
-            </a>
         </div>
-        <div class="col-lg-2 col-lg-offset-1 text-center">
-            <a href="https://github.com/{{ site.github_username }}">
-            <i class="fa fa-github fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                <p>{{ site.github_username }}</p>
-            </a>
-        </div>
-        <div class="col-lg-2 col-lg-offset-1 text-center">
-            <a href="https://www.linkedin.com/in/{{ site.linkedin_url}}">
-            <i class="fa fa-linkedin fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                <p>Linkedin</p>
-            </a>
+        <div class="row">
+            <div class="col-lg-3 col-lg-offset-1 text-center">
+                <a href="mailto:{{ site.email }}">
+                <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p>{{ site.email }}</p>
+                </a>
+            </div>
+            <div class="col-lg-3 col-lg-offset-1 text-center">
+                <a href="https://github.com/{{ site.github_username }}">
+                <i class="fa fa-github fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p>{{ site.github_username }}</p>
+                </a>
+            </div>
+            <div class="col-lg-3 col-lg-offset-1 text-center">
+                <a href="https://www.linkedin.com/in/{{ site.linkedin_url}}">
+                <i class="fa fa-linkedin fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p>Linkedin</p>
+                </a>
+            </div>
+    
         </div>
     </div>
 </section>
